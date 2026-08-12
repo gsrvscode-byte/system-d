@@ -46,8 +46,16 @@ app.get('/test_qa', (req, res) => {
   res.json({ success: true, message: 'Welcome to the QA route' });
 });
 
+<<<<<<< HEAD
 app.get('/test_dev', (req, res) => {
   res.json({ success: true, message: 'Welcome to the QA route' });
+=======
+app.get('/test_qa', (req, res) => {
+    res.json({
+        success: true,
+        message: 'Welcome to the UPDATED QA route'
+    });
+>>>>>>> origin/QA
 });
 
 // Health check
